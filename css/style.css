@@ -1,0 +1,41 @@
+        #output {
+            clear: both;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+            background-color: #ffffff;
+        }
+
+        .sticky+.content {
+            padding-top: 102px;
+        }
+
+        .carousel-item {
+            max-width: 1250px;
+            max-height: 400px;
+        }
+
+        .product {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            max-height: 150px;
+
+        }
+
+        p {
+            margin: 25px;
+        }
+
+        #checkoutdiv {
+            display: none;
+        }
+
+        .footer {
+            background-color: darkgrey;
+            color: white;
+        }
